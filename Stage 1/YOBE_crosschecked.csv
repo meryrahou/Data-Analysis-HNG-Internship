@@ -1,5 +1,3 @@
-
-
 State,LGA,Ward,PU-Code,PU-Name,Accredited_Voters,Registered_Voters,Results_Found,Transcription_Count,Result_Sheet_Stamped,Result_Sheet_Corrected,Result_Sheet_Invalid,Result_Sheet_Unclear,Result_Sheet_Unsigned,APC,LP,PDP,NNPP,Results_File
 YOBE,BADE,GWIO-KURA,35-01-02-003,"GWIO DINA ,PRI. SCH.",222,777,True,-1,TRUE,FALSE,FALSE,FALSE,UNKNOWN,17,0,18,0,https://docs.inecelectionresults.net/elections_prod/1292/state/1/lga/3846/ward/26010/pu/116856/116856-1677683707.pdf
 YOBE,BADE,LAWAN FANNAMI,35-01-05-001,"ARI KULOLA, ARI KULOLA GATE",184,750,True,-1,TRUE,FALSE,FALSE,FALSE,UNKNOWN,48,0,115,13,https://docs.inecelectionresults.net/elections_prod/1292/state/1/lga/3846/ward/26013/pu/116877/116877-1677776676.pdf
