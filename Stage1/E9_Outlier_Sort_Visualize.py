@@ -59,7 +59,7 @@ sorted_lp = outlier_scores.sort_values(by='LP_outlier', ascending=False).head(3)
 sorted_pdp = outlier_scores.sort_values(by='PDP_outlier', ascending=False).head(3)
 sorted_nnpp = outlier_scores.sort_values(by='NNPP_outlier', ascending=False).head(3)
 
-output_file_path = 'outlier_scores.xlsx'
+output_file_path = './Stage1/Visual/outlier_scores.xlsx'
 with pd.ExcelWriter(output_file_path) as writer:
     outlier_scores.to_excel(writer, sheet_name='Outlier Scores', index=False)
     sorted_apc.to_excel(writer, sheet_name='Top 3 APC Outliers', index=False)
@@ -69,8 +69,6 @@ with pd.ExcelWriter(output_file_path) as writer:
 
 print(f"The outlier scores and top 3 outliers for each party have been saved to {output_file_path}")
 
-
-
 # Visualization Part
 
 # Box Plot for each party's outlier scores
@@ -79,24 +77,26 @@ sns.boxplot(data=df[['APC', 'LP', 'PDP', 'NNPP']])
 plt.title('Box Plot of Votes by Party')
 plt.xlabel('Party')
 plt.ylabel('Votes')
-plt.savefig('box_plot_votes_by_party.png')
+plt.savefig('./Stage1/Visual/box_plot_votes_by_party.png')
 plt.show()
 
-# Scatter Plot for latitude vs longitude with outlier scores
-plt.figure(figsize=(12, 8))
-sns.scatterplot(x='Longitude', y='Latitude', hue='PDP_outlier', data=outlier_scores, palette='viridis', size='PDP_outlier', sizes=(20, 200))
-plt.title('Scatter Plot of Polling Units (PDP Outlier Scores)')
-plt.xlabel('Longitude')
-plt.ylabel('Latitude')
-plt.legend(title='PDP Outlier Score', bbox_to_anchor=(1.05, 1), loc='upper left')
-plt.savefig('scatter_plot_pdp_outliers.png')
-plt.show()
+# Scatter Plot for latitude vs longitude with outlier scores for each party
+parties = ['APC', 'LP', 'PDP', 'NNPP']
+for party in parties:
+    plt.figure(figsize=(12, 8))
+    sns.scatterplot(x='Longitude', y='Latitude', hue=f'{party}_outlier', data=outlier_scores, palette='viridis', size=f'{party}_outlier', sizes=(20, 200))
+    plt.title(f'Scatter Plot of Polling Units ({party} Outlier Scores)')
+    plt.xlabel('Longitude')
+    plt.ylabel('Latitude')
+    plt.legend(title=f'{party} Outlier Score', bbox_to_anchor=(1.05, 1), loc='upper left')
+    plt.savefig(f'./Stage1/Visual/scatter_plot_{party.lower()}_outliers.png')
+    plt.show()
 
-# Histogram of PDP outlier scores
-plt.figure(figsize=(12, 8))
-sns.histplot(outlier_scores['PDP_outlier'], bins=30, kde=True)
-plt.title('Histogram of PDP Outlier Scores')
-plt.xlabel('Outlier Score')
-plt.ylabel('Frequency')
-plt.savefig('histogram_pdp_outlier_scores.png')
-plt.show()
+    # Histogram of {party} outlier scores
+    plt.figure(figsize=(12, 8))
+    sns.histplot(outlier_scores[f'{party}_outlier'], bins=30, kde=True)
+    plt.title(f'Histogram of {party} Outlier Scores')
+    plt.xlabel('Outlier Score')
+    plt.ylabel('Frequency')
+    plt.savefig(f'./Stage1/Visual/histogram_{party.lower()}_outlier_scores.png')
+    plt.show()
