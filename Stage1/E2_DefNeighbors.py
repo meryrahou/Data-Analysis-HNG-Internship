@@ -2,10 +2,11 @@ import pandas as pd
 from geopy.distance import geodesic
 
 # Loading geocoded_data into DataFrame
-df = pd.read_csv('geocoded_data.csv')
+df = pd.read_csv('./Stage1/geocoded_data.csv')
 
-def find_neighbors(df, radius=1):
+def find_neighbors(df, radius=5):
     neighbors = {}
+    zero_neighbors = 0
     for i, row_i in df.iterrows():
         neighbors_list = []
         for j, row_j in df.iterrows():
@@ -14,9 +15,12 @@ def find_neighbors(df, radius=1):
                 if distance <= radius:
                     neighbors_list.append(j)
         neighbors[i] = neighbors_list
-    return neighbors
+        if len(neighbors_list) == 0:
+            zero_neighbors += 1
+    return neighbors, zero_neighbors
 
-neighbors = find_neighbors(df)
+neighbors, zero_neighbors = find_neighbors(df)
+print(f"Found {zero_neighbors} points with no neighbors.")
 
 # Convert neighbors dictionary to a DataFrame for saving
 neighbors_df = pd.DataFrame(list(neighbors.items()), columns=['Point', 'Neighbors'])
@@ -25,4 +29,4 @@ neighbors_df = pd.DataFrame(list(neighbors.items()), columns=['Point', 'Neighbor
 neighbors_df['Neighbors'] = neighbors_df['Neighbors'].apply(lambda x: ','.join(map(str, x)))
 
 # Save to CSV
-neighbors_df.to_csv('neighbors.csv', index=False)
+neighbors_df.to_csv('./Stage1/neighbors_5Radius.csv', index=False)
