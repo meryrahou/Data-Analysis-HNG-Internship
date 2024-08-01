@@ -1,0 +1,13 @@
+job_id,description,rate
+0,0,0
+1,Diagnose front wheel vibration,125
+2,Replace front CV Axel,125
+3,Balance tires,125
+4,Oil change,75
+5,Replace brake pads,125
+6,Replace battery,100
+7,Tire rotation,50
+8,Transmission check,150
+9,Replace air filter,50
+10,Coolant flush,120
+11,Replace spark plugs,130
