@@ -1,0 +1,215 @@
+body {
+    margin: 1%;
+    padding-top: 2%;
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+    font-family: 'Inter', sans-serif; /* Sets the font to Inter */
+
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0; /* Positions the header at the top */
+    width: 95%; /* Ensures the header takes up the full width of the page */
+    z-index: 1000; /* Keeps the header above other elements */
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 30px;
+    margin-right: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+main {
+    display: flex;
+    margin: 20px;
+}
+
+aside {
+    width: 20%;
+    padding-right: 1%;
+}
+
+aside h1 {
+    font-weight: bold;
+}
+
+aside ul {
+    padding: 40px;
+    margin: 0;
+}
+
+aside ul li {
+    margin-bottom: 10px;
+    color: #525252;
+    line-height: 2; 
+}
+
+aside ul li a {
+    text-decoration: none; /* Removes underline */
+    color: inherit; /* Uses the color of the parent element (li) */
+    font-weight: normal; /* Ensures text is not bold */
+}
+
+aside ul li a:hover {
+    color: #f88d2b; /* Change to a slightly different color if desired */
+}
+
+.full {
+    flex: 1;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 4%;
+}
+
+section h1 {
+    font-size: 28px;
+    color: #333;
+}
+
+section h2 {
+    font-size: 18px;
+    color: #666;
+}
+
+section hr {
+    margin: 20px 0;
+}
+
+section h3 {
+    margin-top: 20px;
+    font-size: 20px;
+    color: #333;
+}
+
+section h4 {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #333;
+}
+
+section p, section ul, section ol {
+    color: #666;
+    line-height: 1.6;
+}
+
+section ul, section ol {
+    margin-left: 20px;
+}
+
+footer {
+    background-color: #fafafa;
+    color: #525252;
+    padding: 0.5% 3%;
+    margin-top: 20px;
+    line-height: 2; /* Adjust this value to control spacing between lines */
+}
+
+.footer-left {
+    margin-right: 3%;
+    margin-top: 3%;
+    float: left;
+}
+
+.footer-right {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.footer-bottom-right {
+    display: flex;
+    justify-content: space-between; 
+    margin-right: 20px;
+}
+
+.footer-navigation, .footer-support, .footer-legal {
+    margin-right: 20px;
+}
+
+.footer-navigation ul, .footer-support ul, .footer-legal ul {
+    list-style-type: none;
+    padding: 0;
+    font-size: 14px;
+
+}
+
+.footer-navigation h4, .footer-support h4, .footer-legal h4 {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.footer-navigation ul li, .footer-support ul li, .footer-legal ul li {
+    margin-bottom: 5px;
+}
+
+.footer-navigation ul li a, .footer-support ul li a, .footer-legal ul li a {
+    text-decoration: none;
+    color: #525252;
+}
+
+.newsletter input[type="email"] {
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+.newsletter button {
+    padding: 5px 10px;
+    background-color: #f88d2b;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.social-media {
+    margin-top: 20px;
+    margin-left: 20px;
+    text-align: left;
+}
+
+.social-media a {
+    margin: 0 10px;
+}
+
+.social-media img {
+    height: 30px;
+}

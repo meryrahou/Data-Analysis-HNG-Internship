@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NestJS Starter Kit</title>
+    <link rel="stylesheet" href="A2.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="HNG Boilerplate Logo">
+            <span>HNG Boilerplate</span>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Docs</a></li>
+                <li><a href="#">APIs</a></li>
+                <li><a href="#" style="color: #f88d2b">Templates</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <aside>
+            <ul>
+                <li><a href="#introduction" style="color: #f88d2b">Introduction</a></li>
+                <li><a href="#overview">Understanding the NestJS Starter Kit</a></li>
+                <li><a href="#features">Core Features</a></li>
+                <li><a href="#getting-started">How to Use the Starter Kit</a></li>
+                <li><a href="#use-cases">Best Practices</a></li>
+                <li><a href="#success">Success Stories</a></li>
+                <li><a href="#conclusion">Conclusion</a></li>
+            </ul>
+        </aside>
+
+        <section class="full">
+            <h1 style="font-weight: bold;">Unleash Your Creativity with the NestJS Starter Kit</h1>
+            <h2>Transform Your Development Workflow with the NestJS Starter Kit</h2>
+            <hr>
+            
+            <section id="introduction">
+                <h3>Introduction</h3>
+                <p>The software development landscape is evolving rapidly, with developers seeking efficient ways to launch applications without compromising on quality. The NestJS Starter Kit is a meticulously crafted boilerplate designed to provide a robust starting point for your NestJS projects. This article explores the NestJS Starter Kit in detail, highlighting its core features, implementation strategies, and the numerous advantages it offers to developers.</p>
+            </section>
+            
+            <section id="overview">
+                <h3>Understanding the NestJS Starter Kit</h3>
+                <p>The NestJS Starter Kit is more than a simple boilerplate; it's a powerful framework that integrates essential features and configurations, enabling developers to create sophisticated applications quickly. Whether you're building a small web app or a large-scale enterprise solution, the starter kit offers the flexibility and tools you need to succeed.</p>
+            </section>
+            
+            <section id="features">
+                <h3>Core Features</h3>
+                
+                <h4>Super Admin</h4>
+                <p>The Super Admin module is a pivotal component of the NestJS Starter Kit. It provides administrators with a comprehensive dashboard to manage users, products, and settings. This centralized control system simplifies the management of complex applications, allowing for efficient oversight and configuration.</p>
+                <p>Example code for the Super Admin dashboard:</p>
+                <pre style="color: #f88d2b;">
+                    &lt;div class="super-admin-dashboard"&gt;
+                        &lt;h2&gt;Admin Dashboard&lt;/h2&gt;
+                        &lt;button (click)="manageUsers()"&gt;Manage Users&lt;/button&gt;
+                        &lt;button (click)="manageProducts()"&gt;Manage Products&lt;/button&gt;
+                        &lt;button (click)="manageSettings()"&gt;Manage Settings&lt;/button&gt;
+                    &lt;/div&gt;
+                </pre>
+                
+                <h4>Email Templates</h4>
+                <p>Effective communication is crucial for any application. The NestJS Starter Kit includes a suite of email templates such as welcome emails, password reset emails, and newsletter templates. These templates are fully customizable, ensuring they align with your brand and user engagement strategies.</p>
+                <p>Example code for an email template:</p>
+                <pre style="color: #f88d2b;">
+                    &lt;template&gt;
+                        &lt;html&gt;
+                            &lt;body&gt;
+                                &lt;p&gt;Hello &lt;span>{{user.name}}&lt;/span&gt;,&lt;/p&gt;
+                                &lt;p&gt;Welcome to our application! Please click the link below to verify your email address:&lt;/p&gt;
+                                &lt;a href="{{verificationLink}}"&gt;Verify Email&lt;/a&gt;
+                            &lt;/body&gt;
+                        &lt;/html&gt;
+                    &lt;/template&gt;
+                </pre>
+                
+                <h4>Settings and Configuration</h4>
+                <p>The settings module in the NestJS Starter Kit offers extensive customization options. Users can manage their profile settings, configure passwords, and adjust language and regional settings. Administrators can also set up roles, permissions, and data privacy configurations, providing a secure and tailored user experience.</p>
+                <p>Example code for a settings form:</p>
+                <pre style="color: #f88d2b;">
+                    &lt;form class="settings-form"&gt;
+                        &lt;label for="profile-name"&gt;Profile Name&lt;/label&gt;
+                        &lt;input type="text" id="profile-name" name="profile-name" value="current-profile-name"&gt;
+                        
+                        &lt;label for="password"&gt;Change Password&lt;/label&gt;
+                        &lt;input type="password" id="password" name="password"&gt;
+                        
+                        &lt;label for="region"&gt;Region&lt;/label&gt;
+                        &lt;select id="region" name="region"&gt;
+                            &lt;option value="us"&gt;United States&lt;/option&gt;
+                            &lt;option value="eu"&gt;Europe&lt;/option&gt;
+                        &lt;/select&gt;
+                        
+                        &lt;button type="submit"&gt;Save Changes&lt;/button&gt;
+                    &lt;/form&gt;
+                </pre>
+            </section>
+            
+            <section id="getting-started">
+                <h3>How to Use the Starter Kit</h3>
+                <h4>Integration Guide</h4>
+                <ol>
+                    <li>
+                        Installation: Start by cloning the NestJS Starter Kit repository and installing the dependencies using <code>npm install</code>.
+                        <pre style="color: #f88d2b;">
+                            &lt;code&gt;git clone https://github.com/your-repo/nestjs-starter-kit.git&lt;/code&gt;
+                        </pre>
+                    </li>
+                    <li>
+                        Configuration: Set up your environment variables, including database connections and SMTP settings for email templates.
+                        <pre style="color: #f88d2b;">
+                            &lt;code&gt;DATABASE_URL=your-database-url
+                            SMTP_SERVER=your-smtp-server
+                            SMTP_USER=your-smtp-user
+                            SMTP_PASSWORD=your-smtp-password&lt;/code&gt;
+                        </pre>
+                    </li>
+                    <li>
+                        Customization: Customize the email templates and settings according to your application’s requirements.
+                        <pre style="color: #f88d2b;">
+                            &lt;code&gt;<!-- Customize email template -->
+                            &lt;template&gt;
+                                &lt;html&gt;
+                                    &lt;body&gt;
+                                        &lt;p&gt;Hello &lt;span>{{user.name}}&lt;/span&gt;,&lt;/p&gt;
+                                        &lt;p&gt;Your account has been created successfully!&lt;/p&gt;
+                                    &lt;/body&gt;
+                                &lt;/html&gt;
+                            &lt;/template&gt;
+                            &lt;/code&gt;
+                        </pre>
+                    </li>
+                    <li>
+                        Deployment: Use <code>npm run build</code> to compile the project and deploy it on your preferred hosting service.
+                        <pre style="color: #f88d2b;">
+                            &lt;code&gt;npm run build&lt;/code&gt;
+                        </pre>
+                    </li>
+                </ol>
+            </section>
+            
+            <section id="use-cases">
+                <h3>Best Practices</h3>
+                <ul>
+                    <li>Modularization: Keep your application modular by separating features into distinct modules.</li>
+                    <li>Security: Regularly update dependencies and use secure coding practices to safeguard your application.</li>
+                    <li>Testing: Implement automated tests to ensure the reliability and stability of your application.</li>
+                </ul>
+            </section>
+            
+            <section id="success">
+                <h3>Success Stories</h3>
+                <p>Developers worldwide have adopted the NestJS Starter Kit to accelerate their projects. From startups launching new SaaS products to established enterprises revamping their platforms, the starter kit has proven to be an invaluable resource. Case studies highlight significant reductions in development time and increased scalability, underscoring the kit's effectiveness.</p>
+            </section>
+            
+            <section id="conclusion">
+                <h3>Conclusion</h3>
+                <p>The NestJS Starter Kit stands out as a comprehensive solution for developers looking to streamline their project initiation process. Its rich feature set, combined with flexibility and ease of use, makes it an ideal choice for a wide range of applications. Embrace the NestJS Starter Kit and unlock new possibilities in your development journey.</p>
+            </section>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-left">
+            <div class="logo">
+                <img src="logo.png" alt="HNG Boilerplate Logo">
+                <span>HNG Boilerplate</span>
+            </div>
+            <p>10111, Hornchurch, London, United Kingdom</p>
+        </div>
+        <div class="footer-right">
+            <div class="footer-navigation">
+                <h4>Navigation</h4>
+                <ul>
+                    <li><a href="#" style="color: #f88d2b">Home</a></li>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Feature updates</a></li>
+                    <li><a href="#">Blog</a></li>
+                </ul>
+            </div>
+            <div class="footer-support">
+                <h4>Support</h4>
+                <ul>
+                    <li><a href="#">Help Center</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Waiting list</a></li>
+                    <li><a href="#">Pricing Experience</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-legal">
+                <h4>Legal</h4>
+                <ul>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms and condition</a></li>
+                </ul>
+            </div>
+            <div class="newsletter">
+                <h4>Sign Up For Newsletter</h4>
+                <input type="email" placeholder="Enter Email">
+                <button>Subscribe</button>
+            </div>
+        </div>
+        <hr style=" color: #525252;">
+        <div class="footer-bottom">
+            <div class="social-media">
+                <a href="#"><img src="f.png" alt="Facebook"></a>
+                <a href="#"><img src="x.png" alt="Twitter"></a>
+                <a href="#"><img src="in.png" alt="LinkedIn"></a>
+                <a href="#"><img src="ig.png" alt="Instagram"></a>
+            </div>
+            <div>
+                <p style="color: #cbd5e1;">&copy; 2024 All Rights Reserved</p>
+            </div>
+            <div class="footer-bottom-right">
+                <div>
+                    <p>Privacy Policy</p>
+                </div>
+                <div>
+                    <p>Terms of Use</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
