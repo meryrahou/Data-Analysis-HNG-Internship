@@ -1,3 +1,16 @@
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+    }
+    
+    aside {
+        width: 100%;
+        padding-right: 0;
+    }
+}
+
 body {
     margin: 1%;
     padding-top: 2%;
@@ -47,6 +60,15 @@ nav ul li a {
     font-weight: bold;
 }
 
+nav ul li a:hover,
+aside ul li a:hover,
+.footer-navigation ul li a:hover,
+.footer-support ul li a:hover,
+.footer-legal ul li a:hover {
+    color: #f88d2b; /* Ensure consistency in hover color */
+    text-decoration: underline; /* Optional: underline on hover */
+}
+
 main {
     display: flex;
     margin: 20px;
@@ -88,6 +110,10 @@ aside ul li a:hover {
     padding: 20px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     padding: 4%;
+}
+
+section {
+    padding: 20px;
 }
 
 section h1 {
