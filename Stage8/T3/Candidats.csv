@@ -1,0 +1,51 @@
+id,Firstname,Lastname,email,phone,date_of_birth,job_preference,current_status,location_id,created_at,stackID
+508,Madison,Miller,ryan08@shaw.com,(753)274-2696,1984-03-06,DevOps,Looking,12,2024-01-13 00:28:25,8
+155,Carlos,Wallace,williamburns@gmail.com,(796)859-1518x3971,1987-10-23,Data Science,Employed,2,2024-04-08 06:16:19,6
+618,Rebecca,Neal,amanda18@gmail.com,1825954225,1999-01-06,Backend,Employed,8,2024-07-15 17:11:09,2
+434,Susan,Mendoza,wjames@gmail.com,139-704-9666,1992-10-13,DevOps,Available,17,2024-06-20 19:23:39,10
+147,Nathan,Jones,andersonelizabeth@lang-figueroa.com,001-057-385-4952x725,1985-12-04,Data Science,Available,5,2024-03-18 04:41:01,3
+294,Ruben,Stark,crystal80@yahoo.com,302-972-0133x135,1995-12-02,Backend,Looking,11,2024-03-09 16:15:01,5
+249,Donald,Holmes,lozanochristopher@hotmail.com,9735483295,1986-10-24,Data Science,Employed,13,2024-02-06 12:16:27,1
+680,Melissa,Lara,greendavid@hotmail.com,395-332-2144x2754,1997-11-07,DevOps,Available,3,2024-07-15 11:23:38,5
+923,Scott,Brown,huffmantony@hotmail.com,001-727-190-1036x6128,1985-06-27,Data Science,Available,9,2024-03-29 10:34:20,8
+928,Bethany,Jackson,jacob83@gmail.com,001-734-636-0993x1786,1989-02-01,Fullstack,Employed,11,2024-03-28 13:09:19,9
+463,Matthew,Moss,wrivera@rodriguez.com,(284)947-7530x185,2001-11-01,DevOps,Looking,8,2024-05-15 20:39:12,9
+272,Amber,Coleman,davilamark@montgomery.info,+1-831-519-1749x628,1984-05-19,Fullstack,Looking,6,2024-01-22 03:13:07,9
+35,Christian,Kirby,boonebarbara@johnson.org,767-087-6428x14461,1992-02-19,Data Science,Looking,1,2024-01-29 03:10:05,4
+630,Amber,Nunez,ipitts@serrano.org,986.211.7568,1995-03-05,Fullstack,Looking,11,2024-01-13 23:06:47,7
+671,Christopher,Kirk,migueljohnston@hotmail.com,+1-684-399-7630,1984-01-23,Backend,Looking,17,2024-01-14 19:02:24,8
+747,Cynthia,Thomas,fernandezjoshua@walsh.com,976-481-5876x58629,1988-10-14,Data Science,Employed,4,2024-06-13 00:58:56,2
+263,Kimberly,Anderson,joseph26@yahoo.com,(106)228-8138x5773,1992-09-18,Fullstack,Employed,18,2024-02-17 16:01:56,4
+862,Crystal,Goodwin,mirandayork@hotmail.com,+1-488-770-6616x21361,1986-01-31,DevOps,Looking,20,2024-08-09 08:55:17,9
+182,Carl,Reese,franklinshane@yahoo.com,942.496.8191x98316,2002-07-29,Backend,Available,9,2024-04-11 21:53:25,7
+768,Kathryn,Rosales,dcortez@hotmail.com,+1-539-809-9221x26824,1995-06-30,Fullstack,Looking,12,2024-06-23 23:31:54,6
+602,James,Manning,collierjennifer@gmail.com,9990446791,1986-01-25,Data Science,Available,6,2024-07-27 16:34:19,1
+863,Debbie,Bean,derrick38@hotmail.com,333-438-5873,2001-01-19,Backend,Looking,7,2024-04-10 22:27:52,2
+975,Ashley,Price,alanhansen@yahoo.com,(409)530-3954x8860,1989-06-15,Data Science,Available,18,2024-07-10 07:32:59,5
+326,Brittney,Daniels,xtaylor@wade-shelton.com,(479)047-1592,1992-07-19,DevOps,Employed,14,2024-03-01 01:03:36,7
+931,Tina,Harvey,johnsondalton@hotmail.com,679197941,1988-10-08,DevOps,Available,12,2024-04-19 23:23:44,6
+180,Anthony,Chung,william96@yahoo.com,001-831-368-2271,1986-12-13,DevOps,Looking,20,2024-08-12 05:22:57,4
+341,Scott,Price,jnelson@hotmail.com,+1-271-814-8067x431,2001-06-11,Fullstack,Looking,7,2024-07-09 12:29:04,10
+790,Timothy,Wood,jonathanrodriguez@hotmail.com,052.382.9289x544,1999-09-08,Fullstack,Looking,3,2024-03-05 04:39:04,2
+856,Dylan,Smith,susanmorris@hotmail.com,(446)594-9430,1991-08-10,Backend,Looking,12,2024-08-18 08:43:54,6
+836,Daniel,Moore,norma41@clay.info,136.003.4891x04503,1997-08-30,DevOps,Looking,13,2024-07-09 18:01:19,6
+660,Sara,Brewer,julie65@sawyer-johnson.com,236.880.8368x315,1987-09-15,Fullstack,Available,12,2024-08-15 16:49:49,10
+443,Stacey,Bruce,martinjacob@hotmail.com,+1-492-834-3092x41150,2001-09-04,Frontend,Available,10,2024-02-12 00:53:35,4
+421,Victoria,Davidson,millerstephanie@martin.com,1758790390,1998-09-19,Frontend,Employed,4,2024-07-01 13:15:05,9
+587,Gina,Patterson,jodymatthews@hotmail.com,263-753-5193,2000-10-17,Fullstack,Employed,3,2024-04-22 18:48:15,5
+617,Karen,Peterson,maryromero@lowery.com,968-203-7077x315,1996-11-10,Fullstack,Available,1,2024-03-20 18:46:09,3
+468,Heather,Oneal,trice@preston-hall.com,(662)981-8607,1998-12-16,Fullstack,Looking,2,2024-07-08 11:21:37,9
+447,Pam,Oconnor,xlyons@hotmail.com,641-007-9283x415,1994-12-11,Backend,Looking,14,2024-03-02 12:28:08,3
+184,Michael,Morton,danielhoward@yahoo.com,(775)334-3318,1998-05-15,Backend,Available,3,2024-04-29 15:22:19,1
+874,Brandon,Brown,vlawrence@miller.com,(407)721-4911x6287,1988-02-11,Data Science,Employed,7,2024-07-21 02:17:50,10
+690,Donna,Garcia,erica55@day.info,001-021-250-7866x1217,1987-06-20,Backend,Looking,18,2024-07-03 17:51:39,6
+813,Marvin,Mccoy,thomaslance@hotmail.com,420-029-6104,1996-04-22,Data Science,Available,11,2024-08-07 09:41:51,10
+607,Kristen,Wade,kellymckinney@howell-stewart.com,978.820.9127x47415,1991-04-24,DevOps,Looking,4,2024-01-12 05:47:34,2
+963,Jay,Newman,scott78@lee-hardy.com,113-988-7916x60803,1988-04-29,Frontend,Employed,8,2024-07-17 01:58:14,4
+160,Shelley,Gutierrez,rebecca78@gmail.com,985-057-2914,1993-10-11,DevOps,Employed,8,2024-06-03 15:45:29,6
+952,Valerie,Mcintosh,daniel52@yahoo.com,894-600-5972,1989-01-02,DevOps,Available,5,2024-05-21 07:09:38,4
+175,Michael,Evans,creynolds@ortega.com,868-703-5594x0221,1984-06-13,DevOps,Employed,11,2024-07-21 21:41:37,9
+198,Nicole,Nelson,whitefranklin@nichols-meza.com,349-692-8891x6170,1997-06-23,Data Science,Available,17,2024-01-08 22:36:02,7
+233,Maria,Harris,travishernandez@rodriguez.com,6176326614,1991-04-14,Fullstack,Employed,5,2024-05-27 17:02:55,2
+191,Elizabeth,Barry,andrewsmith@yahoo.com,(655)103-6278,1991-05-19,Data Science,Looking,7,2024-05-15 17:09:22,9
+298,Toni,Curtis,dfisher@hotmail.com,+1-359-036-6948x413,1985-01-05,Frontend,Looking,12,2024-04-04 23:12:27,8
