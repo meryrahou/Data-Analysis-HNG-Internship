@@ -1,18 +1,19 @@
 # Data Analysis - HNG Internship
 
-This repository documents my data analysis journey during the [HNG Internship]([#](https://hng.tech/)).  
-- 📖 Read the full article [here]([#](https://medium.com/@meryrahou/from-data-novice-to-finalist-my-transformative-journey-in-hng11-f4ebfcc95545)).  
-- 🏆 View my certificate below and [here]([#](https://drive.google.com/drive/u/0/folders/11O3YCSvXNQV-gaB0FUeZVuDK0DArKSWQ)).  
-- 📢 I also shared my experience [on LinkedIn]([#](https://www.linkedin.com/posts/meryrahou_hng11-dataanalysis-internship-activity-7237504785753542656-QTVX?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADj4lFoB2xkG2ZFm1NuXKIJ5Wv8DHR9i8YM)).
-
-<p align="center">
-  <img src="[LINK_TO_CERTIFICATE_IMAGE](https://drive.google.com/drive/u/0/folders/11O3YCSvXNQV-gaB0FUeZVuDK0DArKSWQ)" alt="HNG Internship Certificate" width="500"/>
-</p>
+This repository documents my data analysis journey during the [HNG Internship](https://hng.tech/).  
+- 📖 Read the full article [here](https://medium.com/@meryrahou/from-data-novice-to-finalist-my-transformative-journey-in-hng11-f4ebfcc95545).  
+- 🏆 View my certificate below and [here](https://drive.google.com/drive/u/0/folders/11O3YCSvXNQV-gaB0FUeZVuDK0DArKSWQ).  
+- 📢 I also shared my experience [on LinkedIn](https://www.linkedin.com/posts/meryrahou_hng11-dataanalysis-internship-activity-7237504785753542656-QTVX?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADj4lFoB2xkG2ZFm1NuXKIJ5Wv8DHR9i8YM).
 
 ## About the Internship
 
 The HNG Internship is a rigorous, fast-paced program focused on real-world technical tasks.  
 As a Data Analyst intern, I participated in multiple end-to-end data analysis projects.
+
+## Certificate
+
+![Certificate](./certif.png)
+
 
 ## Stages of the Internship
 
@@ -74,4 +75,6 @@ This journey has been an invaluable learning experience. I have refined my techn
 
 ## Acknowledgments
 Special thanks to my mentors and teammates for their continuous support throughout this transformative journey.
+
+![Team Starlight](./IMG-20240825-WA0062.jpg)
 
